@@ -1,0 +1,543 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141417;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: #141417;
+    border-bottom: 1px solid #C93645;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+h1{
+    font-weight: bolder;
+    color: #F4F1ED;
+    font-size: 64px;
+}
+
+h2{
+    font-weight: bolder;
+    color: #F4F1ED;
+    font-size: 40px;
+}
+
+h3{
+    font-weight: bolder;
+    color: #F4F1ED;
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+main{
+    margin: 40px;
+}
+
+footer{
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #F4F1ED;
+}
+
+input[type="text"]{
+    background-color: #141417;
+    color: #F4F1ED;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #33333a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 1000px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border: 1px solid #C93645;
+}
+
+button{
+    background-color: #C93645;
+    color: #F4F1ED;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border: 1px solid #33333a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header-title{
+    color: #F4F1ED;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+.header-title span{
+    color: #C93645;
+}
+
+.header-menu{
+    color:#F4F1ED;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header-home:hover{
+    color: #C93645;
+    transition: 0.2s ease; 
+}
+
+.header-home a:hover{
+    color: #C93645;
+    transition: 0.2s ease; 
+}
+
+.header-movies:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-movies a:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-sagas:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-list:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.presentation{
+    text-align: center;
+}
+
+.presentation span{
+    color: #C93645;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.presentation p{
+    color: #B8B8C2;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 1160px;
+}
+
+.search-bar input[type="text"]{
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.btn-filters{
+    background-color: #222228;
+    color: #F4F1ED;
+    border: 1px solid #33333a;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-filters:hover{
+    background-color: #C93645;
+}
+
+.btn-filters p{
+    display: inline;
+}
+
+.container-movies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-movies img{
+    width: 400px;
+}
+
+.container-movies p{
+    color: #B8B8C2;
+    margin: 10px;
+    margin-left:30px
+    
+}
+
+.container-movies p span{
+    color:#C93645;
+    font-size: small;
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.container-movies p span:hover{
+    color:#e06a76;
+}
+
+.container-movies a{
+    color: #C93645;
+    text-decoration: none;
+}
+
+.container-movies a:hover{
+    color: #e06a76;
+}
+
+.halloween-pic,
+.friday-pic,
+.scream-pic,
+.halloween2-pic,
+.black-christmas-pic,
+.scream2-pic,
+.chainsaw-pic,
+.chucky-pic,
+.psycho-pic,
+.americanpsycho-pic,
+.terrifier-pic,
+.elmstreet-pic,
+.saw-pic,
+.souviens-pic,
+.hill-pic,
+.tension-pic,
+.chucky2-pic,
+.maniac-pic,
+.friday2-pic,
+.final-destination-pic{
+    background-color: #222228;
+    position: relative;
+    transition: box-shadow 0.3s , transform 0.3s ease;
+}
+
+.halloween-pic:hover{
+    box-shadow: 0px 0px 10px #d88729;
+    transform: translateY(-3px);
+}
+
+.halloween-pic p,
+.friday-pic p,
+.scream-pic p,
+.halloween2-pic p,
+.black-christmas-pic p,
+.scream2-pic p,
+.chainsaw-pic p,
+.chucky-pic p,
+.psycho-pic p,
+.americanpsycho-pic p,
+.terrifier-pic p,
+.elmstreet-pic p,
+.saw-pic p,
+.souviens-pic p,
+.hill-pic p,
+.tension-pic p,
+.chucky2-pic p,
+.maniac-pic p,
+.friday2-pic p,
+.final-destination-pic p{
+    color:#B8B8C2;
+}
+
+.badge-halloween,
+.badge-friday,
+.badge-scream,
+.badge-halloween2,
+.badge-black-christmas,
+.badge-scream2,
+.badge-chainsaw,
+.badge-chucky,
+.badge-psycho,
+.badge-americanpsycho,
+.badge-terrifier,
+.badge-elmstreet,
+.badge-saw,
+.badge-souviens,
+.badge-hill,
+.badge-tension,
+.badge-chucky2,
+.badge-maniac,
+.badge-friday2,
+.badge-final-destination{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    display: inline-block;
+    background-color: #C93645;
+    border-radius: 10px;   
+}
+.badge-halloween p,
+.badge-friday p,
+.badge-scream p,
+.badge-halloween2 p,
+.badge-black-christmas p,
+.badge-scream2 p,
+.badge-chainsaw p,
+.badge-chucky p,
+.badge-psycho p,
+.badge-americanpsycho p,
+.badge-terrifier p,
+.badge-elmstreet p,
+.badge-saw p,
+.badge-souviens p,
+.badge-hill p,
+.badge-tension p,
+.badge-chucky2 p,
+.badge-maniac p,
+.badge-friday2 p,
+.badge-final-destination p{
+    color: #F4F1ED;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.friday-pic:hover{
+    box-shadow: 0px 0px 10px #454f7c;
+    transform: translateY(-3px);
+}
+
+.friday-pic p strong{
+    text-decoration: line-through;
+}
+
+.scream-pic:hover{
+    box-shadow: 0px 0px 10px white;
+    transform: translateY(-3px);
+}
+
+.halloween2-pic:hover{
+    box-shadow: 0px 0px 10px #d88729;
+    transform: translateY(-3px);
+}
+
+.black-christmas-pic:hover{
+    box-shadow: 0px 0px 10px #09791c;
+    transform: translateY(-3px);
+}
+
+.scream2-pic:hover{
+    box-shadow: 0px 0px 10px white;
+    transform: translateY(-3px);
+}
+
+.chainsaw-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.chucky-pic:hover{
+    box-shadow: 0px 0px 10px rgb(50, 135, 204);
+    transform: translateY(-3px);
+}
+
+.psycho-pic:hover{
+    box-shadow: 0px 0px 10px white;
+    transform: translateY(-3px);
+}
+
+.americanpsycho-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.terrifier-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.elmstreet-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.saw-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.souviens-pic:hover{
+    box-shadow: 0px 0px 10px rgb(5, 15, 56);
+    transform: translateY(-3px);
+}
+
+.hill-pic:hover{
+    box-shadow: 0px 0px 10px rgb(206, 177, 49);
+    transform: translateY(-3px);
+}
+
+.tension-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.chucky2-pic:hover{
+    box-shadow: 0px 0px 10px rgb(50, 135, 204);
+    transform: translateY(-3px);
+}
+
+.maniac-pic:hover{
+    box-shadow: 0px 0px 10px rgb(129, 6, 6);
+    transform: translateY(-3px);
+}
+
+.friday2-pic:hover{
+    box-shadow: 0px 0px 10px #454f7c;
+    transform: translateY(-3px);
+}
+
+.final-destination-pic:hover{
+    box-shadow: 0px 0px 10px rgb(116, 89, 89);
+    transform: translateY(-3px);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #C93645;
+    color: #F4F1ED;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pagination button:hover {
+    background-color: #F4F1ED;
+    color: #C93645;
+}
+
+.footer-title{
+    color: #F4F1ED;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.footer-title span{
+    color: #C93645;
+}
+
+.footer-description{
+    color: #B8B8C2;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1200px) {
+
+    main{
+        margin: 24px;
+    }
+
+    .filters{
+        gap: 12px;
+        margin: 24px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-title{
+        margin-left: 0;
+    }
+
+    .header-menu{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 0 12px 16px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-title{
+        margin-left: 0;
+    }
+
+    .footer-description{
+        margin: 0 16px 20px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    main{
+        margin: 16px;
+    }
+
+    .search-bar{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar input[type="text"]{
+        flex: none;
+    }
+
+    .btn-filters{
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+}
