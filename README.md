@@ -1,77 +1,47 @@
-# Dernière séance 🎬
+# Dernière Séance — SvelteKit
 
-Dernière séance est un site consacré aux films d’horreur et aux slashers,
-réalisé dans le cadre de ma formation en développement web.
+Migration du projet `slasher_project`. Le dossier HTML/CSS/JS original est conservé à côté et n’a pas été modifié.
 
-L’objectif est de permettre aux visiteurs de découvrir des films,
-de parcourir leurs fiches et de trouver un titre grâce à une recherche
-et à des filtres.
+## Démarrer
 
-## Voir le site
+Ouvrir ce dossier dans VS Code, puis dans le terminal :
 
-https://alexandre-goubert.github.io/slasher_project/
+```powershell
+npm.cmd install
+npm.cmd run dev -- --open
+```
 
-## Fonctionnalités
+Vérifications : `npm.cmd run check` et `npm.cmd run build`.
+Prévisualisation du site construit : `npm.cmd run preview`.
 
-- Page d’accueil présentant une sélection de films.
-- Catalogue de 20 films.
-- Recherche par titre.
-- Filtrage par décennie.
-- Pagination de 8 films par page.
-- Fiches détaillées : résumé, année, réalisateur, durée et distribution.
+## Où modifier le site ?
 
-## Technologies utilisées
+- `src/routes/+page.svelte` : accueil.
+- `src/routes/films/+page.svelte` : catalogue, recherche, filtres, pagination de 8 films.
+- `src/routes/films/[slug]/+page.svelte` : modèle commun aux 20 fiches films.
+- `src/lib/data/films.json` : titres, années, résumés et distributions repris du projet original.
+- `src/routes/sagas/+page.svelte` et `src/lib/data/sagas.json` : les trois sagas présentes dans le site original.
+- `src/lib/components/FilmCard.svelte` : carte commune au catalogue et aux sagas.
+- `src/lib/components/Header.svelte` et `Footer.svelte` : éléments communs.
+- `src/lib/home.css` : styles de l’accueil repris du projet original.
+- `src/lib/app.css` : styles partagés, catalogue, sagas et fiches films.
+- `static/images` : illustrations originales, accessibles avec `asset()`.
 
-- HTML : structure des pages.
-- CSS : présentation, mise en page et adaptation aux écrans.
-- JavaScript : recherche, filtres et pagination.
-- Git et GitHub : suivi des versions et hébergement du code.
-- GitHub Pages : publication du site.
+Le mode Halloween est commun aux pages et mémorisé dans le navigateur. « Ma liste » reste une fonctionnalité à venir, comme dans le projet d’origine. Les informations des films ont été transférées, pas actualisées ni revérifiées.
 
-## Organisation du projet
+## Publication
 
-- `index.html` : entrée du site et redirection vers l’accueil.
-- `html/` : pages du site et fiches des films.
-- `css/` : feuilles de style.
-- `script/` : scripts JavaScript.
-- `images/` : illustrations des films.
+Le site est précompilé en HTML avec l’adaptateur statique. Rien n’a été publié automatiquement et le dépôt original reste inchangé.
+Pour préparer une publication sur le dépôt GitHub Pages existant, construire avec le bon préfixe :
 
-## Consulter le projet en local
+```powershell
+$env:BASE_PATH='/slasher_project'
+npm.cmd run build
+Remove-Item Env:BASE_PATH
+```
 
-1. Télécharger le dépôt ou le cloner avec Git.
-2. Ouvrir le dossier du projet dans Visual Studio Code.
-3. Ouvrir `index.html` avec l’extension Live Server.
-
-## Objectifs pédagogiques
-
-Ce projet me permet de pratiquer :
-
-- La structuration de pages HTML.
-- La mise en page avec Flexbox et Grid.
-- Le responsive design avec les media queries.
-- La manipulation du DOM et des événements en JavaScript.
-- La combinaison de filtres et la pagination.
-- La gestion d’un projet avec Git et GitHub.
-
-## Améliorations prévues
-
-- Ajouter une liste personnelle de films à découvrir.
-- Créer une page consacrée aux sagas.
-- Améliorer l’accessibilité.
-- Optimiser le poids des images.
-- Poursuivre les tests sur mobile et tablette.
+Un workflow de publication SvelteKit devra remplacer la publication actuelle au moment de la migration du dépôt. Les anciennes URL `html/*.html` devront alors être redirigées vers les nouvelles routes pour préserver les liens existants.
 
 ## Crédits
 
-Les illustrations des films ont été générées avec une intelligence
-artificielle. Elles ne sont pas des affiches officielles.
-
-Les informations des fiches ont été préparées à partir de recherches
-sur les films, notamment sur Wikipédia.
-
-Projet pédagogique indépendant, sans affiliation avec les studios
-ou les ayants droit des films présentés.
-
-## Auteur
-
-Réalisé par [alexandre-goubert] dans le cadre de ma formation.
+Projet pédagogique d’Alexandre Goubert. Illustrations générées par IA, non officielles. Les textes et distributions proviennent des fichiers du projet original, préparés notamment à partir de Wikipédia. Site indépendant, sans affiliation avec les studios.

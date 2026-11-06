@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Halloween",
+        "slugs": [
+            "halloween",
+            "halloween2"
+        ]
+    },
+    {
+        "title": "Vendredi 13",
+        "slugs": [
+            "friday",
+            "friday2"
+        ]
+    },
+    {
+        "title": "Scream",
+        "slugs": [
+            "scream",
+            "scream2"
+        ]
+    }
+]

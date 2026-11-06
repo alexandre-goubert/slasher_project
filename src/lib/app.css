@@ -1,0 +1,326 @@
+/* Éléments communs et palette conservée du site original. */
+:root {
+    --color-main: #c93645;
+    --color-main-hover: #e34e5d;
+}
+
+body {
+    margin: 0;
+    background: #141417;
+    color: #f4f1ed;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button, .film-year {
+    background: var(--color-main);
+    color: #fff;
+    border: 1px solid var(--color-main);
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 3px solid #f3bb64;
+    outline-offset: 4px;
+}
+
+header {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 24px;
+    border-color: var(--color-main);
+}
+
+.header-title, .header-menu {
+    margin: 0;
+}
+
+.header-menu {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.header-menu a[aria-current='page'], .header-menu a:hover {
+    color: var(--color-main-hover);
+}
+
+.header-menu > span {
+    color: #b8b5b3;
+    font-size: 14px;
+}
+
+.theme-toggle {
+    background: transparent;
+    font-size: 14px;
+}
+
+footer {
+    align-items: center;
+    padding-inline: 24px;
+}
+
+.home-page, .catalog-page, .film-page, .sagas-page {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.catalog-page h1, .sagas-page h1, .film-page h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: 1.1;
+}
+
+.catalog-page .presentation, .sagas-page .presentation {
+    margin: 20px 0 36px;
+}
+
+/* Catalogue : recherche, filtres, cartes et pagination. */
+.search-bar {
+    display: flex;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.search-bar input {
+    flex: 1;
+    min-width: 0;
+    padding: 16px;
+    background: #1d1d22;
+    color: #f4f1ed;
+    border: 1px solid #65656f;
+    border-radius: 8px;
+}
+
+.search-bar input::placeholder {
+    color: #b8b5b3;
+}
+
+.filters, .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.filters button, .pagination button {
+    background: #1d1d22;
+    border-color: #65656f;
+}
+
+.filters button[aria-pressed='true'], .pagination button[aria-current='page'],
+.filters button:hover, .pagination button:hover {
+    background: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.result-count, .empty-state {
+    color: #d2ceca;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.film-card {
+    min-width: 0;
+    overflow: hidden;
+    background: #1d1d22;
+    border: 1px solid #393940;
+    border-radius: 12px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.film-card:hover {
+    border-color: var(--color-main);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 25%);
+}
+
+.film-card-image {
+    display: block;
+    position: relative;
+}
+
+.film-card-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1060 / 1480;
+    object-fit: cover;
+}
+
+.film-year {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.film-card-content {
+    padding: 18px;
+}
+
+.film-card-content h3 {
+    margin: 0 0 10px;
+    font-size: 21px;
+}
+
+.film-card-content p {
+    color: #d2ceca;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.film-card-content a, .back-link {
+    color: #ff8995;
+    text-underline-offset: 4px;
+}
+
+.film-card-content a:hover, .back-link:hover {
+    text-decoration: underline;
+}
+
+.saga-section {
+    margin: 40px 0;
+}
+
+/* Une seule présentation pour toutes les fiches films. */
+.film-section {
+    display: grid;
+    grid-template-columns: minmax(220px, 400px) minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+    margin: 32px 0 48px;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.description-container h1 {
+    margin-top: 0;
+}
+
+.description-container h2 {
+    margin: 24px 0;
+    font-size: 24px;
+}
+
+.actors-container > h2, .saga-section > h2 {
+    margin: 32px 0 24px;
+}
+
+.description-container p {
+    line-height: 1.8;
+    color: #d2ceca;
+}
+
+.description-container .film-meta {
+    color: #ff8995;
+    font-weight: 600;
+}
+
+.cast-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: start;
+}
+
+.cast-table {
+    min-width: 0;
+    overflow-x: auto;
+}
+
+.cast-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cast-table caption {
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.cast-table th, .cast-table td {
+    padding: 14px;
+    border: 1px solid #494950;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.cast-table th {
+    background: var(--color-main);
+    color: white;
+}
+
+.cast-table tr:nth-child(even) {
+    background: #222228;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+    .movies-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    header {
+        position: static;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .home-page, .catalog-page, .film-page, .sagas-page {
+        padding: 20px 16px;
+    }
+
+    .movies-grid, .film-section, .cast-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .film-section {
+        gap: 24px;
+    }
+
+    .img-container {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .header-menu {
+        justify-content: center;
+        gap: 16px;
+    }
+}

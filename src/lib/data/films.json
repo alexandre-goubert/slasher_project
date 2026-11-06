@@ -1,0 +1,1182 @@
+[
+    {
+        "slug": "halloween",
+        "title": "Halloween",
+        "year": 1978,
+        "tagline": "Il traque sa prochaine victime (toi)",
+        "image": "images/halloween-pic.png",
+        "fullTitle": "Halloween,la nuit des masques",
+        "director": "Réalisé par John Carpenter",
+        "duration": "1h 31min",
+        "synopsis": [
+            "1963.Haddonfield. Michael Myers : un garçon de six ans tue sa soeur de plusieurs coups de couteau. Quinze ans plus tard, il s'évade de l'hôpital psychiatrique d'où il était interné et revient à Haddonfield pour semer la terreur",
+            "Le Dr Loomis, son médecin conscient du danger que représente Michael, avec l'aide de la police tente de l'arrêter avant qu'il ne fasse d'autres victimes."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Nick Castle",
+                        "role": "Michael Myers"
+                    },
+                    {
+                        "name": "Donald Pleasence",
+                        "role": "Dr. Loomis"
+                    },
+                    {
+                        "name": "Jamie Lee Curtis",
+                        "role": "Laurie Strode"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "P.J. Soles",
+                        "role": "Lynda van der Klok"
+                    },
+                    {
+                        "name": "Nancy Kyes",
+                        "role": "Annie Brackett"
+                    },
+                    {
+                        "name": "Charles Cyphers",
+                        "role": "Sheriff Brackett"
+                    },
+                    {
+                        "name": "Tony Moran",
+                        "role": "Michael Myers (démasqué)"
+                    },
+                    {
+                        "name": "Sandy Johnson",
+                        "role": "Judith Myers"
+                    },
+                    {
+                        "name": "John Michael Graham",
+                        "role": "Bob Simms"
+                    },
+                    {
+                        "name": "Brian Andrews",
+                        "role": "Tommy Doyle"
+                    },
+                    {
+                        "name": "Kyle Richards",
+                        "role": "Lindsey Wallace"
+                    },
+                    {
+                        "name": "Nancy Stephens",
+                        "role": "Marion Chambers"
+                    },
+                    {
+                        "name": "Will Sandin",
+                        "role": "Michael Myers (enfant)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "friday",
+        "title": "Vendredi 13",
+        "year": 1980,
+        "tagline": "Bienvenue au camp de vacances",
+        "image": "images/friday13-pic.png",
+        "fullTitle": "Vendredi 13",
+        "director": "Réalisé par Sean S. Cunningham",
+        "duration": "1h 35min",
+        "synopsis": [
+            "Un groupe de jeunes moniteurs prépare la réouverture du camp de Crystal Lake, malgré les avertissements des habitants. Le lieu reste marqué par une noyade et plusieurs drames survenus des années auparavant.",
+            "Alors que la nuit tombe et que l'orage isole le camp, les moniteurs disparaissent les uns après les autres. Alice,une monitrice doit comprendre qui les traque pour espérer survivre."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Betsy Palmer",
+                        "role": "Pamela Voorhees"
+                    },
+                    {
+                        "name": "Adrienne King",
+                        "role": "Alice Hardy"
+                    },
+                    {
+                        "name": "Harry Crosby",
+                        "role": "Bill Brown"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Kevin Bacon",
+                        "role": "Jack Burrell"
+                    },
+                    {
+                        "name": "Jeannine Taylor",
+                        "role": "Marcie Stanler"
+                    },
+                    {
+                        "name": "Laurie Bartram",
+                        "role": "Brenda Jones"
+                    },
+                    {
+                        "name": "Mark Nelson",
+                        "role": "Ned Rubenstein"
+                    },
+                    {
+                        "name": "Robbi Morgan",
+                        "role": "Annie Phillips"
+                    },
+                    {
+                        "name": "Peter Brouwer",
+                        "role": "Steve Christy"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "scream",
+        "title": "Scream",
+        "year": 1996,
+        "tagline": "Quel est ton film préféré ?",
+        "image": "images/scream-pic.png",
+        "fullTitle": "Scream",
+        "director": "Réalisé par Wes Craven",
+        "duration": "1h 51min",
+        "synopsis": [
+            "À Woodsboro, une série de meurtres bouleverse la vie de Sidney Prescott, encore marquée par la mort de sa mère. Un individu masqué appelle ses victimes et transforme leur connaissance des films d'horreur en jeu menaçant.",
+            "Entourée de ses amis, Sidney tente de découvrir qui se cache derrière Ghostface. Le shérif adjoint Dewey Riley et la journaliste Gale Weathers suivent eux aussi la piste du tueur."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Neve Campbell",
+                        "role": "Sidney Prescott"
+                    },
+                    {
+                        "name": "David Arquette",
+                        "role": "Dewey Riley"
+                    },
+                    {
+                        "name": "Courteney Cox",
+                        "role": "Gale Weathers"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Skeet Ulrich",
+                        "role": "Billy Loomis"
+                    },
+                    {
+                        "name": "Matthew Lillard",
+                        "role": "Stu Macher"
+                    },
+                    {
+                        "name": "Rose McGowan",
+                        "role": "Tatum Riley"
+                    },
+                    {
+                        "name": "Jamie Kennedy",
+                        "role": "Randy Meeks"
+                    },
+                    {
+                        "name": "Drew Barrymore",
+                        "role": "Casey Becker"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "halloween2",
+        "title": "Halloween 2",
+        "year": 1981,
+        "tagline": "Le mal ne meurt jamais",
+        "image": "images/halloween2-pic.png",
+        "fullTitle": "Halloween 2",
+        "director": "Réalisé par Rick Rosenthal",
+        "duration": "1h 32min",
+        "synopsis": [
+            "Après avoir échappé à Michael Myers, Laurie Strode est transportée à l'hôpital de Haddonfield. Elle pense enfin pouvoir recevoir des soins, mais le tueur a survécu et poursuit sa traque.",
+            "Pendant que le Dr Loomis le recherche dans la ville, Michael se rapproche de Laurie. Les couloirs de l'hôpital deviennent le théâtre d'une nouvelle nuit de terreur."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Jamie Lee Curtis",
+                        "role": "Laurie Strode"
+                    },
+                    {
+                        "name": "Donald Pleasence",
+                        "role": "Dr. Sam Loomis"
+                    },
+                    {
+                        "name": "Dick Warlock",
+                        "role": "Michael Myers"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Charles Cyphers",
+                        "role": "Shérif Leigh Brackett"
+                    },
+                    {
+                        "name": "Lance Guest",
+                        "role": "Jimmy"
+                    },
+                    {
+                        "name": "Pamela Susan Shoop",
+                        "role": "Karen Bailey"
+                    },
+                    {
+                        "name": "Tawny Moyer",
+                        "role": "Jill Franco"
+                    },
+                    {
+                        "name": "Nancy Stephens",
+                        "role": "Marion Chambers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "black-christmas",
+        "title": "Black Christmas",
+        "year": 1974,
+        "tagline": "Pas le plus joyeux des Noël",
+        "image": "images/black-christmas-pic.png",
+        "fullTitle": "Black Christmas",
+        "director": "Réalisé par Bob Clark",
+        "duration": "1h 38min",
+        "synopsis": [
+            "À l'approche de Noël, les étudiantes d'une résidence universitaire reçoivent des appels obscènes et inquiétants. Elles essaient d'abord de les ignorer, avant que la disparition de l'une d'entre elles ne fasse grandir la peur.",
+            "Jess et ses amies cherchent de l'aide auprès de la police. Tandis que les appels continuent, un danger se dissimule dans un endroit qu'elles croyaient sûr."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Olivia Hussey",
+                        "role": "Jess Bradford"
+                    },
+                    {
+                        "name": "Keir Dullea",
+                        "role": "Peter Smythe"
+                    },
+                    {
+                        "name": "Margot Kidder",
+                        "role": "Barb Coard"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "John Saxon",
+                        "role": "Lieutenant Kenneth Fuller"
+                    },
+                    {
+                        "name": "Andrea Martin",
+                        "role": "Phyl Carlson"
+                    },
+                    {
+                        "name": "Marian Waldman",
+                        "role": "Mrs. Mac"
+                    },
+                    {
+                        "name": "Lynne Griffin",
+                        "role": "Clare Harrison"
+                    },
+                    {
+                        "name": "Art Hindle",
+                        "role": "Chris Hayden"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "scream2",
+        "title": "Scream 2",
+        "year": 1997,
+        "tagline": "C'est qui cette fois ?",
+        "image": "images/scream2-pic.png",
+        "fullTitle": "Scream 2",
+        "director": "Réalisé par Wes Craven",
+        "duration": "2h 00min",
+        "synopsis": [
+            "Sidney Prescott tente de reconstruire sa vie à l'université de Windsor. Mais la sortie d'un film inspiré des meurtres de Woodsboro s'accompagne d'une nouvelle série d'attaques.",
+            "Un autre Ghostface semble vouloir poursuivre le cauchemar. Sidney retrouve Dewey et Gale, tandis que son nouvel entourage devient à son tour suspect."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Neve Campbell",
+                        "role": "Sidney Prescott"
+                    },
+                    {
+                        "name": "David Arquette",
+                        "role": "Dewey Riley"
+                    },
+                    {
+                        "name": "Courteney Cox",
+                        "role": "Gale Weathers"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Jamie Kennedy",
+                        "role": "Randy Meeks"
+                    },
+                    {
+                        "name": "Jerry O'Connell",
+                        "role": "Derek Feldman"
+                    },
+                    {
+                        "name": "Elise Neal",
+                        "role": "Hallie McDaniel"
+                    },
+                    {
+                        "name": "Timothy Olyphant",
+                        "role": "Mickey Altieri"
+                    },
+                    {
+                        "name": "Laurie Metcalf",
+                        "role": "Debbie Salt"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "chainsaw",
+        "title": "Massacre à la tronçonneuse",
+        "year": 1974,
+        "tagline": "Un régime alimentaire assez particulier",
+        "image": "images/chainsaw-pic.png",
+        "fullTitle": "Massacre à la tronçonneuse",
+        "director": "Réalisé par Tobe Hooper",
+        "duration": "1h 23min",
+        "synopsis": [
+            "Sally Hardesty, son frère Franklin et leurs amis traversent le Texas pour vérifier la tombe de leur grand-père. Leur voyage les conduit près d'une vieille propriété familiale et d'une maison isolée.",
+            "En cherchant de l'aide, ils rencontrent Leatherface et les membres de sa famille. La promenade se transforme en lutte pour échapper à un piège terrifiant."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Marilyn Burns",
+                        "role": "Sally Hardesty"
+                    },
+                    {
+                        "name": "Gunnar Hansen",
+                        "role": "Leatherface"
+                    },
+                    {
+                        "name": "Paul A. Partain",
+                        "role": "Franklin Hardesty"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Allen Danziger",
+                        "role": "Jerry"
+                    },
+                    {
+                        "name": "Jim Siedow",
+                        "role": "Drayton Sawyer"
+                    },
+                    {
+                        "name": "Edwin Neal",
+                        "role": "L'auto-stoppeur"
+                    },
+                    {
+                        "name": "Teri McMinn",
+                        "role": "Pam"
+                    },
+                    {
+                        "name": "William Vail",
+                        "role": "Kirk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "chucky",
+        "title": "Chucky",
+        "year": 1988,
+        "tagline": "Amis pour la vie",
+        "image": "images/chucky-pic.png",
+        "fullTitle": "Chucky, jeu d'enfant",
+        "director": "Réalisé par Tom Holland",
+        "duration": "1h 27min",
+        "synopsis": [
+            "Pour son anniversaire, Andy Barclay reçoit une poupée que sa mère a achetée à un vendeur ambulant. Le garçon s'attache rapidement à Chucky, qui semble pourtant posséder une volonté bien à lui.",
+            "Des événements inquiétants surviennent autour d'Andy. Sa mère et l'inspecteur Mike Norris doivent envisager l'impossible : la poupée abrite l'esprit du criminel Charles Lee Ray."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Alex Vincent",
+                        "role": "Andy Barclay"
+                    },
+                    {
+                        "name": "Catherine Hicks",
+                        "role": "Karen Barclay"
+                    },
+                    {
+                        "name": "Brad Dourif",
+                        "role": "Charles Lee Ray / Chucky (voix)"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Chris Sarandon",
+                        "role": "Inspecteur Mike Norris"
+                    },
+                    {
+                        "name": "Dinah Manoff",
+                        "role": "Maggie Peterson"
+                    },
+                    {
+                        "name": "Tommy Swerdlow",
+                        "role": "Jack Santos"
+                    },
+                    {
+                        "name": "Jack Colvin",
+                        "role": "Dr. Ardmore"
+                    },
+                    {
+                        "name": "Neil Giuntoli",
+                        "role": "Eddie Caputo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "psycho",
+        "title": "Psycho",
+        "year": 1960,
+        "tagline": "Une mère et son fils",
+        "image": "images/psycho-pic.png",
+        "fullTitle": "Psycho, Psychose",
+        "director": "Réalisé par Alfred Hitchcock",
+        "duration": "1h 49min",
+        "synopsis": [
+            "Après avoir dérobé de l'argent à son employeur, Marion Crane prend la fuite. Surprise par la pluie, elle s'arrête dans un motel isolé tenu par Norman Bates, un jeune homme réservé qui vit auprès de sa mère.",
+            "Lorsque Marion disparaît, sa sœur Lila et son compagnon Sam se mettent à sa recherche. Leur enquête les ramène vers le motel et les secrets de la famille Bates."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Anthony Perkins",
+                        "role": "Norman Bates"
+                    },
+                    {
+                        "name": "Janet Leigh",
+                        "role": "Marion Crane"
+                    },
+                    {
+                        "name": "Vera Miles",
+                        "role": "Lila Crane"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "John Gavin",
+                        "role": "Sam Loomis"
+                    },
+                    {
+                        "name": "Martin Balsam",
+                        "role": "Milton Arbogast"
+                    },
+                    {
+                        "name": "John McIntire",
+                        "role": "Shérif adjoint Al Chambers"
+                    },
+                    {
+                        "name": "Simon Oakland",
+                        "role": "Dr. Richman"
+                    },
+                    {
+                        "name": "Pat Hitchcock",
+                        "role": "Caroline"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "americanpsycho",
+        "title": "American Psycho",
+        "year": 2000,
+        "tagline": "Un banquier psychopathe à New York",
+        "image": "images/americanpsycho-pic.png",
+        "fullTitle": "American Psycho",
+        "director": "Réalisé par Mary Harron",
+        "duration": "1h 42min",
+        "synopsis": [
+            "Dans le New York des années 1980, Patrick Bateman mène une vie de financier privilégié, obsédé par son apparence et sa réussite sociale. Derrière ses costumes impeccables, il dissimule des pulsions meurtrières.",
+            "La disparition d'un collègue attire l'attention d'un enquêteur. Peu à peu, le quotidien de Bateman brouille les frontières entre façade sociale, fantasmes et réalité."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Christian Bale",
+                        "role": "Patrick Bateman"
+                    },
+                    {
+                        "name": "Chloë Sevigny",
+                        "role": "Jean"
+                    },
+                    {
+                        "name": "Reese Witherspoon",
+                        "role": "Evelyn Williams"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Justin Theroux",
+                        "role": "Timothy Bryce"
+                    },
+                    {
+                        "name": "Josh Lucas",
+                        "role": "Craig McDermott"
+                    },
+                    {
+                        "name": "Bill Sage",
+                        "role": "David Van Patten"
+                    },
+                    {
+                        "name": "Willem Dafoe",
+                        "role": "Donald Kimball"
+                    },
+                    {
+                        "name": "Jared Leto",
+                        "role": "Paul Allen"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "terrifier",
+        "title": "Terrifier",
+        "year": 2016,
+        "tagline": "Le clown le plus terrifiant",
+        "image": "images/terrifier-pic.png",
+        "fullTitle": "Terrifier",
+        "director": "Réalisé par Damien Leone",
+        "duration": "1h 25min",
+        "synopsis": [
+            "Le soir d'Halloween, Tara et son amie Dawn croisent un clown silencieux et inquiétant à la sortie d'une soirée. Son comportement devient rapidement menaçant, et leur retour chez elles tourne au cauchemar.",
+            "Art le Clown les poursuit dans un immeuble presque désert. Venue chercher sa sœur, Victoria se retrouve entraînée dans cette nuit dont personne ne semble pouvoir sortir indemne."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "David Howard Thornton",
+                        "role": "Art le Clown"
+                    },
+                    {
+                        "name": "Jenna Kanell",
+                        "role": "Tara Heyes"
+                    },
+                    {
+                        "name": "Samantha Scaffidi",
+                        "role": "Victoria Heyes"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Catherine Corcoran",
+                        "role": "Dawn Emerson"
+                    },
+                    {
+                        "name": "Pooya Mohseni",
+                        "role": "La femme au chat"
+                    },
+                    {
+                        "name": "Matt McAllister",
+                        "role": "Mike, le désinsectiseur"
+                    },
+                    {
+                        "name": "Katie Maguire",
+                        "role": "Monica Brown"
+                    },
+                    {
+                        "name": "Gino Cafarelli",
+                        "role": "Steve"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "elmstreet",
+        "title": "A Nightmare on Elm Street",
+        "year": 1984,
+        "tagline": "Le cauchemar devient réalité",
+        "image": "images/elmstreet-pic.png",
+        "fullTitle": "A Nightmare on Elm Street, Les Griffes de la nuit",
+        "director": "Réalisé par Wes Craven",
+        "duration": "1h 31min",
+        "synopsis": [
+            "Nancy Thompson et ses amis font des cauchemars peuplés d'un homme au visage brûlé, muni d'un gant à lames. Quand l'un de ces rêves semble provoquer une mort réelle, dormir devient une menace.",
+            "Nancy cherche à comprendre qui est Freddy Krueger et quel secret relie leurs parents à cet homme. Pour survivre, elle doit affronter un adversaire capable de l'atteindre dans son sommeil."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Heather Langenkamp",
+                        "role": "Nancy Thompson"
+                    },
+                    {
+                        "name": "Robert Englund",
+                        "role": "Freddy Krueger"
+                    },
+                    {
+                        "name": "John Saxon",
+                        "role": "Donald Thompson"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Ronee Blakley",
+                        "role": "Marge Thompson"
+                    },
+                    {
+                        "name": "Amanda Wyss",
+                        "role": "Tina Gray"
+                    },
+                    {
+                        "name": "Jsu Garcia",
+                        "role": "Rod Lane"
+                    },
+                    {
+                        "name": "Johnny Depp",
+                        "role": "Glen Lantz"
+                    },
+                    {
+                        "name": "Charles Fleischer",
+                        "role": "Dr. King"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "saw",
+        "title": "Saw",
+        "year": 2004,
+        "tagline": "Le jeu macabre commence",
+        "image": "images/saw-pic.png",
+        "fullTitle": "Saw",
+        "director": "Réalisé par James Wan",
+        "duration": "1h 43min",
+        "synopsis": [
+            "Adam et le Dr Lawrence Gordon se réveillent enchaînés dans une salle de bains délabrée, sans comprendre comment ils sont arrivés là. Des indices et des enregistrements leur imposent les règles d'un jeu mortel.",
+            "Pour espérer s'échapper, ils doivent découvrir ce qui les relie et déjouer le plan de leur ravisseur. Au même moment, une enquête tente de remonter jusqu'au mystérieux Jigsaw."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Leigh Whannell",
+                        "role": "Adam"
+                    },
+                    {
+                        "name": "Cary Elwes",
+                        "role": "Dr. Lawrence Gordon"
+                    },
+                    {
+                        "name": "Danny Glover",
+                        "role": "Inspecteur David Tapp"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Tobin Bell",
+                        "role": "Jigsaw"
+                    },
+                    {
+                        "name": "Shawnee Smith",
+                        "role": "Amanda Young"
+                    },
+                    {
+                        "name": "Monica Potter",
+                        "role": "Alison Gordon"
+                    },
+                    {
+                        "name": "Michael Emerson",
+                        "role": "Zep Hindle"
+                    },
+                    {
+                        "name": "Ken Leung",
+                        "role": "Inspecteur Steven Sing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "souviens",
+        "title": "Souviens-toi... l'été dernier",
+        "year": 1997,
+        "tagline": "Un été meurtrier",
+        "image": "images/souviens-pic.png",
+        "fullTitle": "Souviens-toi... l'été dernier",
+        "director": "Réalisé par Jim Gillespie",
+        "duration": "1h 41min",
+        "synopsis": [
+            "Après une soirée d'été, quatre amis renversent un homme sur une route côtière. Paniqués, ils décident de dissimuler l'accident et de ne plus jamais en parler.",
+            "Un an plus tard, Julie reçoit un message prouvant que leur secret est connu. Un individu vêtu d'un ciré et armé d'un crochet commence alors à les traquer."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Jennifer Love Hewitt",
+                        "role": "Julie James"
+                    },
+                    {
+                        "name": "Sarah Michelle Gellar",
+                        "role": "Helen Shivers"
+                    },
+                    {
+                        "name": "Freddie Prinze Jr.",
+                        "role": "Ray Bronson"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Ryan Phillippe",
+                        "role": "Barry Cox"
+                    },
+                    {
+                        "name": "Muse Watson",
+                        "role": "Ben Willis"
+                    },
+                    {
+                        "name": "Johnny Galecki",
+                        "role": "Max Neurick"
+                    },
+                    {
+                        "name": "Bridgette Wilson",
+                        "role": "Elsa Shivers"
+                    },
+                    {
+                        "name": "Anne Heche",
+                        "role": "Melissa Egan"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "hill",
+        "title": "La colline a des yeux",
+        "year": 2006,
+        "tagline": "Une famille en danger dans le désert",
+        "image": "images/hill-pic.png",
+        "fullTitle": "La colline a des yeux",
+        "director": "Réalisé par Alexandre Aja",
+        "duration": "1h 46min",
+        "synopsis": [
+            "En route pour la Californie, la famille Carter emprunte un raccourci à travers le désert du Nouveau-Mexique. Une panne les immobilise près d'une ancienne zone d'essais nucléaires, loin de tout secours.",
+            "Les collines environnantes abritent des habitants hostiles qui observent leurs moindres mouvements. Isolés, Doug et les Carter doivent se défendre et protéger les leurs."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Aaron Stanford",
+                        "role": "Doug Bukowski"
+                    },
+                    {
+                        "name": "Emilie de Ravin",
+                        "role": "Brenda Carter"
+                    },
+                    {
+                        "name": "Dan Byrd",
+                        "role": "Bobby Carter"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Ted Levine",
+                        "role": "Bob Carter"
+                    },
+                    {
+                        "name": "Kathleen Quinlan",
+                        "role": "Ethel Carter"
+                    },
+                    {
+                        "name": "Vinessa Shaw",
+                        "role": "Lynn Carter-Bukowski"
+                    },
+                    {
+                        "name": "Robert Joy",
+                        "role": "Lizard"
+                    },
+                    {
+                        "name": "Michael Bailey Smith",
+                        "role": "Pluto"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "tension",
+        "title": "Haute Tension",
+        "year": 2003,
+        "tagline": "Un suspense insoutenable",
+        "image": "images/tension-pic.png",
+        "fullTitle": "Haute Tension",
+        "director": "Réalisé par Alexandre Aja",
+        "duration": "1h 35min",
+        "synopsis": [
+            "Marie accompagne son amie Alex dans la maison de campagne de ses parents pour réviser au calme. Leur séjour bascule lorsqu'un inconnu s'introduit dans la propriété pendant la nuit.",
+            "Après l'enlèvement d'Alex, Marie tente de retrouver son amie et d'appeler les secours. Une poursuite angoissante s'engage sur les routes et dans les bois alentour."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Cécile de France",
+                        "role": "Marie"
+                    },
+                    {
+                        "name": "Maïwenn",
+                        "role": "Alexia Soral"
+                    },
+                    {
+                        "name": "Philippe Nahon",
+                        "role": "Le tueur"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Andrei Finti",
+                        "role": "Daniel Soral"
+                    },
+                    {
+                        "name": "Oana Pellea",
+                        "role": "La mère d'Alex"
+                    },
+                    {
+                        "name": "Franck Khalfoun",
+                        "role": "Jimmy"
+                    },
+                    {
+                        "name": "Marco Claudiu Pascu",
+                        "role": "Tom Soral"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "final-destination",
+        "title": "Destination Finale",
+        "year": 2000,
+        "tagline": "La mort est inévitable",
+        "image": "images/final-destination-pic.png",
+        "fullTitle": "Destination finale",
+        "director": "Réalisé par James Wong",
+        "duration": "1h 38min",
+        "synopsis": [
+            "Avant le décollage d'un voyage scolaire, Alex Browning a la vision d'une catastrophe aérienne. Son affolement le pousse à quitter l'appareil avec plusieurs passagers, quelques instants avant que sa prémonition ne se réalise.",
+            "Les rescapés pensent avoir échappé au pire, mais des accidents étranges se succèdent. Alex et Clear cherchent à comprendre l'ordre de ces événements pour empêcher la mort de les rattraper."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Devon Sawa",
+                        "role": "Alex Browning"
+                    },
+                    {
+                        "name": "Ali Larter",
+                        "role": "Clear Rivers"
+                    },
+                    {
+                        "name": "Kerr Smith",
+                        "role": "Carter Horton"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Kristen Cloke",
+                        "role": "Valerie Lewton"
+                    },
+                    {
+                        "name": "Seann William Scott",
+                        "role": "Billy Hitchcock"
+                    },
+                    {
+                        "name": "Chad E. Donella",
+                        "role": "Tod Waggner"
+                    },
+                    {
+                        "name": "Amanda Detmer",
+                        "role": "Terry Chaney"
+                    },
+                    {
+                        "name": "Tony Todd",
+                        "role": "William Bludworth"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "chucky2",
+        "title": "Chucky la poupée de sang",
+        "year": 1990,
+        "tagline": "Le retour de Chucky",
+        "image": "images/chucky2-pic.png",
+        "fullTitle": "Chucky, la poupée de sang",
+        "director": "Réalisé par John Lafia",
+        "duration": "1h 24min",
+        "synopsis": [
+            "Après les événements qui ont bouleversé sa famille, Andy Barclay est placé chez de nouveaux parents d'accueil. Pendant ce temps, le fabricant de Chucky reconstruit la poupée pour tenter de défendre sa réputation.",
+            "Ranimé, Chucky retrouve la trace d'Andy et cherche encore à s'emparer de son corps. Le garçon peut compter sur Kyle, une adolescente accueillie dans la même maison, pour tenter de lui échapper."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Alex Vincent",
+                        "role": "Andy Barclay"
+                    },
+                    {
+                        "name": "Brad Dourif",
+                        "role": "Chucky (voix)"
+                    },
+                    {
+                        "name": "Christine Elise",
+                        "role": "Kyle"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Jenny Agutter",
+                        "role": "Joanne Simpson"
+                    },
+                    {
+                        "name": "Gerrit Graham",
+                        "role": "Phil Simpson"
+                    },
+                    {
+                        "name": "Grace Zabriskie",
+                        "role": "Grace Poole"
+                    },
+                    {
+                        "name": "Peter Haskell",
+                        "role": "Sullivan"
+                    },
+                    {
+                        "name": "Beth Grant",
+                        "role": "Miss Kettlewell"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "maniac",
+        "title": "Maniac",
+        "year": 1980,
+        "tagline": "Un tueur en série psychopathe",
+        "image": "images/maniac-pic.png",
+        "fullTitle": "Maniac",
+        "director": "Réalisé par William Lustig",
+        "duration": "1h 28min",
+        "synopsis": [
+            "À New York, Frank Zito vit seul dans un appartement rempli de mannequins. Hanté par son passé et par le souvenir de sa mère, il erre dans la ville et s'en prend à des inconnues.",
+            "Sa rencontre avec Anna, une photographe, lui offre l'apparence d'une relation ordinaire. Mais ses obsessions envahissent peu à peu ce fragile équilibre."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Joe Spinell",
+                        "role": "Frank Zito"
+                    },
+                    {
+                        "name": "Caroline Munro",
+                        "role": "Anna D'Antoni"
+                    },
+                    {
+                        "name": "Gail Lawrence",
+                        "role": "Rita"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Kelly Piper",
+                        "role": "L'infirmière"
+                    },
+                    {
+                        "name": "Rita Montone",
+                        "role": "La prostituée"
+                    },
+                    {
+                        "name": "Tom Savini",
+                        "role": "Le garçon de la discothèque"
+                    },
+                    {
+                        "name": "Hyla Marrow",
+                        "role": "La fille de la discothèque"
+                    },
+                    {
+                        "name": "James Brewster",
+                        "role": "Le garçon sur la plage"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "friday2",
+        "title": "Vendredi 13, Chapitre 2",
+        "year": 1981,
+        "tagline": "Jason revient",
+        "image": "images/friday2-pic.png",
+        "fullTitle": "Vendredi 13, Chapitre 2",
+        "director": "Réalisé par Steve Miner",
+        "duration": "1h 27min",
+        "synopsis": [
+            "Plusieurs années après les meurtres de Crystal Lake, un nouveau groupe de moniteurs rejoint un centre de formation voisin. Paul Holt leur raconte la légende de Jason Voorhees et leur recommande d'éviter l'ancien camp.",
+            "Les avertissements ne suffisent pas à empêcher de nouvelles disparitions. Ginny doit affronter une présence dissimulée dans les bois et comprendre ce qui la pousse à tuer."
+        ],
+        "cast": [
+            {
+                "title": "Acteurs principaux",
+                "people": [
+                    {
+                        "name": "Amy Steel",
+                        "role": "Ginny Field"
+                    },
+                    {
+                        "name": "John Furey",
+                        "role": "Paul Holt"
+                    },
+                    {
+                        "name": "Steve Daskewisz",
+                        "role": "Jason Voorhees masqué"
+                    }
+                ]
+            },
+            {
+                "title": "Acteurs secondaires",
+                "people": [
+                    {
+                        "name": "Adrienne King",
+                        "role": "Alice Hardy"
+                    },
+                    {
+                        "name": "Warrington Gillette",
+                        "role": "Jason Voorhees démasqué"
+                    },
+                    {
+                        "name": "Kirsten Baker",
+                        "role": "Terry McCarthy"
+                    },
+                    {
+                        "name": "Lauren-Marie Taylor",
+                        "role": "Vickie Perry"
+                    },
+                    {
+                        "name": "Stu Charno",
+                        "role": "Ted Bowen"
+                    }
+                ]
+            }
+        ]
+    }
+]
