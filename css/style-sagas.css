@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141417;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: #141417;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+h1{
+    font-weight: bolder;
+    color: #F4F1ED;
+    font-size: 64px;
+}
+
+h2{
+    font-weight: bolder;
+    color: #F4F1ED;
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+h3{
+    font-weight: bolder;
+    color: #F4F1ED;
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+main{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+footer{
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #F4F1ED;
+}
+
+.header-title{
+    color: #F4F1ED;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header-title span{
+    color: #C93645;
+}
+
+.header-menu{
+    color:#F4F1ED;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header-home:hover{
+    color: #C93645;
+    transition: 0.2s ease; 
+}
+
+.header-home a:hover{
+    color: #C93645;
+    transition: 0.2s ease; 
+}
+
+.header-movies:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-movies a:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-sagas:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-sagas a:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-list:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.presentation{
+    text-align: center;
+}
+
+.presentation span{
+    color: #C93645;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.presentation p{
+    color: #B8B8C2;
+}
+
+.halloween-saga, .friday-saga, .scream-saga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.halloween-pic, .halloween2-pic, .friday-pic, .friday2-pic, .scream-pic, .scream2-pic{
+    background-color: #222228;
+    position: relative;
+    transition: box-shadow 0.3s , transform 0.3s ease;
+}
+
+.halloween-pic p, .halloween2-pic p, .friday-pic p, .friday2-pic p, .scream-pic p, .scream2-pic p{
+    color:#B8B8C2;
+}
+
+.badge-halloween, .badge-halloween2, .badge-friday, .badge-friday2, .badge-scream, .badge-scream2{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    display: inline-block;
+    background-color: #C93645;
+    border-radius: 10px;   
+}
+
+.badge-halloween p, .badge-halloween2 p, .badge-friday p, .badge-friday2 p, .badge-scream p, .badge-scream2 p{
+    color: #F4F1ED;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.sagas span{
+    font-size: small;
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.sagas span a{
+    color: #C93645;
+    text-decoration: none;
+}
+
+.sagas span a:hover{
+    color:#e06a76;
+}
+
+.footer-title{
+    color: #F4F1ED;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.footer-title span{
+    color: #C93645;
+}
+
+.footer-description{
+    color: #B8B8C2;
+    margin-top: 80px;
+    margin-right: 20px;
+}

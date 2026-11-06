@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+html{
+
+    --theme-color: #C93645;
+    --theme-color-hover: #e06a76;
+    --theme-color-halloween: #d88729;
+    --theme-color-halloween-hover: #e0a14d;
+
+    --color-main: var(--theme-color);
+    --color-main-hover: var(--theme-color-hover);
+    --color-main-halloween: var(--theme-color-halloween);
+    --color-main-halloween-hover: var(--theme-color-halloween-hover);
+}
+
 body{
     background-color: #141417;
     font-family: "Poppins", sans-serif;
@@ -55,6 +68,10 @@ a{
     color: #F4F1ED;
 }
 
+i{
+    margin-right: 5px;
+}
+
 .header-title{
     color: #F4F1ED;
     text-transform: uppercase;
@@ -65,7 +82,7 @@ a{
 }
 
 .header-title span{
-    color: #C93645;
+    color: var(--color-main);
 }
 
 .header-menu{
@@ -76,33 +93,51 @@ a{
     margin-right: 10px;
 }
 
+.color-mode-container{
+    color: #F4F1ED;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.color-mode-container p{
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .header-home:hover{
-    color: #C93645;
+    color: var(--color-main);
     transition: 0.2s ease; 
 }
 
 .header-home a:hover{
-    color: #C93645;
+    color: var(--color-main);
     transition: 0.2s ease; 
 }
 
 .header-movies:hover{
-    color: #C93645;
+    color: var(--color-main);
     transition: 0.2s ease;
 }
 
 .header-movies a:hover{
-    color: #C93645;
+    color: var(--color-main);
     transition: 0.2s ease;
 }
 
 .header-sagas:hover{
-    color: #C93645;
+    color: var(--color-main);
+    transition: 0.2s ease;
+}
+
+.header-sagas a:hover{
+    color: var(--color-main);
     transition: 0.2s ease;
 }
 
 .header-list:hover{
-    color: #C93645;
+    color: var(--color-main);
     transition: 0.2s ease;
 }
 
@@ -111,7 +146,7 @@ a{
 }
 
 .presentation span{
-    color: #C93645;
+    color: var(--color-main);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
@@ -123,7 +158,7 @@ a{
 }
 
 .explore{
-    background-color: #C93645;
+    background-color: var(--color-main);
     border-radius: 10px;
     display: inline-block;
 }
@@ -136,11 +171,11 @@ a{
 
 .explore:hover{
    background-color: white;
-   color: #C93645;
+   color: var(--color-main);
 }
 
 .explore:hover p{
-    color: #C93645;
+    color: var(--color-main);
 }
 
 .container{
@@ -185,7 +220,7 @@ a{
 }
 
 .container-pictures p span{
-    color:#C93645;
+    color: var(--color-main);
     font-size: small;
     display: flex;
     margin: 10px;
@@ -193,16 +228,16 @@ a{
 }
 
 .container-pictures p span:hover{
-    color:#e06a76;
+    color: var(--color-main-hover);
 }
 
 .container-pictures a{
-    color: #C93645;
+    color: var(--color-main);
     text-decoration: none;
 }
 
 .container-pictures a:hover{
-    color: #e06a76;
+    color: var(--color-main-hover);
 }
 
 .halloween-pic,
@@ -251,7 +286,7 @@ a{
     top: 1%;
     right: 1%;
     display: inline-block;
-    background-color: #C93645;
+    background-color: var(--color-main);
     border-radius: 10px;   
 }
 
@@ -278,8 +313,8 @@ a{
 }
 
 .list{
-    color: #C93645;
-    border:2px solid #C93645;
+    color: var(--color-main);
+    border:2px solid var(--color-main);
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
@@ -287,8 +322,8 @@ a{
 }
 
 .list:hover{
-   color: #e06a76;
-   border:2px solid #e06a76; 
+   color: var(--color-main-hover);
+   border:2px solid var(--color-main-hover); 
 }
 
 .presentation-list p{
@@ -304,7 +339,7 @@ a{
 }
 
 .footer-title span{
-    color: #C93645;
+    color: var(--color-main);
 }
 
 .footer-description{
@@ -387,4 +422,11 @@ a{
     h1{
         font-size: 36px;
     }
+}
+
+/* Color mode */
+
+.halloween-mode {
+    --color-main: #d88729;
+    --color-main-hover: #e0a14d;
 }

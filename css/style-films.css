@@ -53,6 +53,10 @@ a{
     color: #F4F1ED;
 }
 
+i{
+    margin-right: 5px;
+}
+
 input[type="text"]{
     background-color: #141417;
     color: #F4F1ED;
@@ -124,6 +128,11 @@ button{
 }
 
 .header-sagas:hover{
+    color: #C93645;
+    transition: 0.2s ease;
+}
+
+.header-sagas a:hover{
     color: #C93645;
     transition: 0.2s ease;
 }
